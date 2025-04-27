@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f2f7f8;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.logo {
+  height: 100px;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -15px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  margin: 35px;
+  align-items: end;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 10px auto;
+  align-items: center;
+  gap: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.leftside {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 550;
+}
+
+p {
+  line-height: 2;
+}
+
+.rightside {
+  margin: 30px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+}
+
+.sign {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 280px;
+}
+
+.create {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 50px;
+}
+
+.iphone {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 40px;
+}
+
+.android {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 40px;
+}
+
+.buttongroup {
+  display: flex;
+  gap: 15px;
+}
